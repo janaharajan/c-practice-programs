@@ -1,0 +1,22 @@
+//finding average using while done  by janaharajan refered reema thareja book 30/12/2021//
+
+#include<stdio.h>
+int main()
+{
+    int num,sum=0,count=0;
+    int average;
+   printf("Enter the number:");
+    scanf("%d",&num);
+    while(num >= 0)
+    {
+        count++;
+        sum=sum+num;
+        printf("Enter the number:");
+        scanf("%d",&num);
+    }
+    average=sum/count;
+    printf("\n AVG=%d",average);
+    printf("\n SUM=%d",sum);
+    
+    return 0;
+}
